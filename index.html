@@ -36,15 +36,46 @@
     <link href="styles.css" rel="stylesheet">
   </head>
   <body>
+      
+    
 
-<div class="container py-3">
+         
+<div class="container py-3"></div>
   <header>
-    <div class='nav-brand'> 
-      <a href='index.html'> 
-        <img src='logo.png' alt='logo' width='150px' height='197px'> 
-      </a> 
-     </div>
+    <div class="container">
+      <nav class="navbar navbar-expand-sm navbar-light">
+          <a class="navbar-brand" href="#">
+              <img src="logo.png" alt="Bootstrap" width="50" height="34" class="d-inline-block align-top">
+              <span class="hidden">Pro PC Builds</span>
+            </a>
+          <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#toggleMobileMenu" 
+            aria-controls="toggleMobileMenu" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation"
+          >
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          
+              <ul class="navbar-nav ms-auto text-center">
+                  <li>
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+              </ul>
+              
 
+          </div>
+      </nav>
+    </div>
+    <div class="container">
+        </div>
+      
+      
+    
     <div class="header p-3 pb-md-4 mx-auto text-center">
       <h1 class="display-4 fw-normal">PC Build Page</h1>
     </div>
@@ -52,7 +83,7 @@
 
   <main>
 <!--card 1------------------------------------------------------->
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="row row-cols-1 row-cols-md-4 mb-4 text-center">
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3" >
@@ -61,7 +92,7 @@
           <div class="card-body">
             <img src="images/PC1.png" class="img-fluid">
           </div>
-            <a type="button" class="w-100 btn btn-lg btn-primary" href="PC1.html">Play</a>
+            <a type="button" class="w-100 btn btn-lg btn-primary" href="PC1.html">Select</a>
         </div>
       </div>
 <!--card 2------------------------------------------------------->
@@ -73,7 +104,7 @@
           <div class="card-body">
             <img src="images/PC2.png" class="img-fluid" >
           </div>
-            <a type="button" class="w-100 btn btn-lg btn-primary" href="PC2.html">Play</a>
+            <a type="button" class="w-100 btn btn-lg btn-primary" href="PC2.html">Select</a>
         </div>
       </div>
 <!--card 3------------------------------------------------------->
@@ -86,18 +117,19 @@
           <div class="card-body">
             <img src="images/PC3.png" class="img-fluid" >
           </div>
-            <a type="button" class="w-100 btn btn-lg btn-primary" href="PC3.html">Play</a>
+            <a type="button" class="w-100 btn btn-lg btn-primary" href="PC3.html">Select</a>
         </div>
       </div>
 <!--card 4------------------------------------------------------->
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">CORE I9, z590, 64gb DDR5, cooling loop
+            <h4 class="my-0 fw-normal">CORE I9, z590, 64gb DDR5, AIO</h4>
+          </div>
           <div class="card-body">
             <img src="images/PC4.png" class="img-fluid" >
           </div>
-            <a type="button" class="w-100 btn btn-lg btn-primary" href="PC4.html">Draw</a>
+            <a type="button" class="w-100 btn btn-lg btn-primary" href="PC2.html">Select</a>
         </div>
       </div>
     </div>
